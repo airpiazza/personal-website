@@ -1,15 +1,15 @@
-const SmallText = props => {
+const Text = props => {
   return (
     <div style={{
-        color: '#5D137C',
+        color: props.color,
         fontFamily: 'pedestria-mvb, sans-serif',
-        fontWeight: 700,
+        fontWeight: props.fontWeight,
         fontStyle: 'normal',
-        fontSize: '3vw'
+        fontSize: props.fontSize
     }}>
         <p>{props.content}</p>
     </div>
   );
 }
 
-export default SmallText;
+export default Text;
