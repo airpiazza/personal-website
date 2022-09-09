@@ -1,4 +1,4 @@
-const SmallText = (props) => {
+const SmallText = props => {
   return (
     <div style={{
         color: '#5D137C',
