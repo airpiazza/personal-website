@@ -2,10 +2,11 @@ const Text = props => {
   return (
     <div style={{
         color: props.color,
-        fontFamily: 'pedestria-mvb, sans-serif',
+        fontFamily: `${props.fontFamily}, sans-serif`,
         fontWeight: props.fontWeight,
         fontStyle: 'normal',
-        fontSize: props.fontSize
+        fontSize: props.fontSize,
+        marginRight: props.marginRight
     }}>
         <p>{props.content}</p>
     </div>
