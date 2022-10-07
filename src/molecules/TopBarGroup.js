@@ -14,7 +14,7 @@ const TopBarGroup = (props) => {
             fontSize='2.5vw'
             marginRight={7}
         />
-        <Icon iconName={props.iconName} size='3vw'/>
+        <Icon color={props.iconColor} iconName={props.iconName} size='3vw'/>
       </div>
     );
   }

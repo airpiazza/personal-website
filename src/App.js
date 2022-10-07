@@ -1,10 +1,10 @@
 import './App.css';
-import ArrowTextGroup from './molecules/ArrowTextGroup'
+import TopBar from './organisms/TopBar'
 
 const App = () => {
   return (
     <div className='App'>
-      <ArrowTextGroup />
+      <TopBar />
     </div>
   );
 }
