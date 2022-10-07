@@ -17,8 +17,9 @@ const getIconComponent = iconName => {
 const Icon = props => {
     return (
         <div style={{
-            color: '#5D137C',
-            fontSize: props.size
+            color: props.color,
+            fontSize: props.size,
+            marginBottom: props.marginBottom
         }}>
             { getIconComponent(props.iconName) }
         </div>
