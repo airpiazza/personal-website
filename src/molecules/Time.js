@@ -18,7 +18,8 @@ const Time = (props) => {
 
     return (
       <div style={{
-        display: 'flex'
+        display: 'flex',
+        justifyContent: 'center'
       }}>
         <Text 
             content={currentTime}

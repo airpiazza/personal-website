@@ -11,10 +11,10 @@ const TopBarGroup = (props) => {
             color='#5D137C'
             fontFamily='pedestria-mvb'
             fontWeight={700}
-            fontSize='2.5vw'
-            marginRight={7}
+            fontSize='3vw'
+            marginRight='1vw'
         />
-        <Icon color={props.iconColor} iconName={props.iconName} size='3vw'/>
+        <Icon color={props.iconColor} iconName={props.iconName} size='3.5vw'/>
       </div>
     );
   }

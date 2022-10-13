@@ -1,10 +1,10 @@
 import './App.css';
-import TopBar from './organisms/TopBar'
+import LockScreenPage from './pages/LockScreenPage';
 
 const App = () => {
   return (
     <div className='App'>
-      <TopBar />
+      <LockScreenPage />
     </div>
   );
 }

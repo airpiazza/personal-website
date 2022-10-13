@@ -4,9 +4,12 @@ import Text from '../atoms/Text'
 const ArrowTextGroup = () => {
     return (
         <div style={{
-            textAlign: 'center'
+            display: 'flex',
+            flexDirection: 'column',
+            textAlign: 'center',
+            marginBottom: 50
         }}>
-            <Icon iconName='FaChevronUp' size='5vw' color='#0087A2' marginBottom='-15px'/>
+            <Icon iconName='FaChevronUp' size='4.5vw' color='#0087A2' marginBottom={0}/>
             <Text 
                 content={'Click here to unlock'}
                 color='#5D137C'
