@@ -15,7 +15,7 @@ const ArrowTextGroup = () => {
                 color='#5D137C'
                 fontFamily='pedestria-mvb'
                 fontWeight={700}
-                fontSize='3vw'
+                fontSize='5vw'
                 marginRight={0}
             />
         </div>
