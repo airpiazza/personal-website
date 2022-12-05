@@ -1,10 +1,10 @@
 import './App.css';
-import LockScreenPage from './pages/LockScreenPage';
+import HomeScreenPage from './pages/HomeScreenPage';
 
 const App = () => {
   return (
     <div className='App'>
-      <LockScreenPage />
+      <HomeScreenPage />
     </div>
   );
 }
