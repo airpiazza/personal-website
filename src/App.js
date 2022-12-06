@@ -1,10 +1,10 @@
 import './App.css';
-import HomeScreenPage from './pages/HomeScreenPage';
+import ProjectAppIcon from './atoms/ProjectAppIcon';
 
 const App = () => {
   return (
     <div className='App'>
-      <HomeScreenPage />
+      <ProjectAppIcon projectAppIcon='aboutMe' />
     </div>
   );
 }
