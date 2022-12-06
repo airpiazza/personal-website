@@ -1,5 +1,5 @@
 import Time from "../molecules/Time";
-import TopBar from "../organisms/TopBar";
+import LockScreenTopBar from "../organisms/LockScreenTopBar";
 import ArrowTextGroup from "../molecules/ArrowTextGroup";
 
 const LockScreenPage = () => {
@@ -10,7 +10,7 @@ const LockScreenPage = () => {
             justifyContent: 'space-between',
             height: '100vh'
         }}>
-            <TopBar />
+            <LockScreenTopBar />
             <Time 
                 fontFamily='Pedestria-MVB' 
                 WebkitTextStroke='1vw #5D137C' 

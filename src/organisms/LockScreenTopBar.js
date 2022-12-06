@@ -1,7 +1,7 @@
 import TopBarGroup from '../molecules/TopBarGroup'
 
-const TopBar = () => {
-    return(
+const LockScreenTopBar = () => {
+    return (
         <div style={{
             display: 'flex',
             justifyContent: 'space-between',
@@ -21,4 +21,4 @@ const TopBar = () => {
     );
 }
 
-export default TopBar;
+export default LockScreenTopBar;
