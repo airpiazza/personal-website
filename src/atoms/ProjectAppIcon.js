@@ -11,6 +11,20 @@ import github from '../assets/github.png';
 import linkedIn from '../assets/linkedIn.png';
 import codepen from '../assets/codepen.png';
 
+const projectAppIcons = {
+    aboutMe: aboutMe,
+    resume: resume,
+    pizze: pizze,
+    allCaps: allCaps,
+    kobe: kobe,
+    pizzaSurvey: pizzaSurvey,
+    guitar: guitar,
+    kotlin: kotlin,
+    quando: quando,
+    github: github,
+    linkedIn: linkedIn,
+    codepen: codepen
+}
 const ProjectAppIcon = props => {
     return (
         <>
@@ -28,21 +42,6 @@ const ProjectAppIcon = props => {
             />
         </>
     );
-}
-
-const projectAppIcons = {
-    aboutMe: aboutMe,
-    resume: resume,
-    pizze: pizze,
-    allCaps: allCaps,
-    kobe: kobe,
-    pizzaSurvey: pizzaSurvey,
-    guitar: guitar,
-    kotlin: kotlin,
-    quando: quando,
-    github: github,
-    linkedIn: linkedIn,
-    codepen: codepen
 }
 
 export default ProjectAppIcon;

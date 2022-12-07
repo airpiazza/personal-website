@@ -1,10 +1,10 @@
 import './App.css';
-import ProjectAppGroup from './molecules/ProjectAppGroup';
+import ProjectApps from './organisms/ProjectApps';
 
 const App = () => {
   return (
     <div className='App'>
-      <ProjectAppGroup projectAppName='pizze' />
+      <ProjectApps />
     </div>
   );
 }
