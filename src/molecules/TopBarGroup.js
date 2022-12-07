@@ -13,6 +13,8 @@ const TopBarGroup = (props) => {
             fontWeight={700}
             fontSize='3vw'
             marginRight='1vw'
+            WebkitTextStroke={0}
+            marginTop={0}
         />
         <Icon color={props.iconColor} iconName={props.iconName} size='3.5vw'/>
       </div>

@@ -17,6 +17,8 @@ const ArrowTextGroup = () => {
                 fontWeight={700}
                 fontSize='5vw'
                 marginRight={0}
+                WebkitTextStroke={0}
+                marginTop={0}
             />
         </div>
     );

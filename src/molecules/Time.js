@@ -29,6 +29,7 @@ const Time = (props) => {
             fontSize={props.fontSize}
             marginRight={0}
             WebkitTextStroke={props.WebkitTextStroke}
+            marginTop={0}
         />
       </div>
     );

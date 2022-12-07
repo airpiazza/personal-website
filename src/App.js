@@ -1,10 +1,10 @@
 import './App.css';
-import ProjectAppIcon from './atoms/ProjectAppIcon';
+import ProjectAppGroup from './molecules/ProjectAppGroup';
 
 const App = () => {
   return (
     <div className='App'>
-      <ProjectAppIcon projectAppIcon='aboutMe' />
+      <ProjectAppGroup projectAppName='pizze' />
     </div>
   );
 }
