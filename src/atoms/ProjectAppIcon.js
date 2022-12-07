@@ -6,7 +6,10 @@ import kobe from '../assets/kobe.png';
 import pizzaSurvey from '../assets/pizzaSurvey.png';
 import guitar from '../assets/guitar.png';
 import kotlin from '../assets/kotlin.png';
-import quando from '../quando.png';
+import quando from '../assets/quando.png';
+import github from '../assets/github.png';
+import linkedIn from '../assets/linkedIn.png';
+import codepen from '../assets/codepen.png';
 
 const ProjectAppIcon = props => {
     return (
@@ -36,7 +39,10 @@ const projectAppIcons = {
     pizzaSurvey: pizzaSurvey,
     guitar: guitar,
     kotlin: kotlin,
-    quando: quando
+    quando: quando,
+    github: github,
+    linkedIn: linkedIn,
+    codepen: codepen
 }
 
 export default ProjectAppIcon;
