@@ -9,6 +9,7 @@ import quando from '../assets/quando.png';
 import github from '../assets/github.png';
 import linkedIn from '../assets/linkedIn.png';
 import codepen from '../assets/codepen.png';
+import '../stylesheets/ProjectAppIcon.css';
 
 const projectAppIcons = {
     aboutMe: aboutMe,
@@ -27,14 +28,7 @@ const ProjectAppIcon = props => {
     return (
         <>
             <img 
-                style={{
-                    maxWidth: '10vw',
-                    height: 'auto',
-                    borderRadius: '2vw',
-                    borderStyle: 'solid',
-                    borderWidth: 3,
-                    boxShadow: '1vw 1vw 0px black'
-                }}
+                className='project-app-icon'
                 src={projectAppIcons[props.projectAppIcon]} 
                 alt='Resume app icon'
             />

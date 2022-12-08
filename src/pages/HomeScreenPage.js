@@ -1,16 +1,23 @@
-import AppBarHolder from '../atoms/AppBarHolder';
-import AppBarRow from '../molecules/AppBarRow';
+import AppBar from '../organisms/AppBar';
 import HomeScreenTopBar from '../organisms/HomeScreenTopBar';
 import ProjectApps from '../organisms/ProjectApps';
 
 const HomeScreenPage = () => {
     return (
-        <>
+        <div>
             <HomeScreenTopBar />
-            <ProjectApps />
-            <AppBarRow />
-            <AppBarHolder />
-        </>
+            <div 
+                style={{
+                    height: '100vh',
+                    display: 'flex',
+                    flexDirection:'column',
+                    justifyContent: 'space-between',
+                }}
+            >
+                <ProjectApps />
+                <AppBar />
+            </div>
+        </div>
     );
 }
 

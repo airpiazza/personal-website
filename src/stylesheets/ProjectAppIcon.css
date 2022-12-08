@@ -1,0 +1,21 @@
+.project-app-icon {
+    max-width: 10vw;
+    height: auto;
+    border-radius: 2vw;
+    border-style: solid;
+    border-width: 3;
+    box-shadow: 1vw 1vw 0px black;
+}
+
+.project-app-icon:hover {
+    animation-name: no-box-shadow;
+    animation-duration: 600ms;
+    animation-fill-mode: forwards;
+    font-weight: bold;
+}
+
+@keyframes no-box-shadow{
+    100%{
+      box-shadow: none;
+    }
+  }

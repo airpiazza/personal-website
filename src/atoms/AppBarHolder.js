@@ -9,7 +9,8 @@ const AppBarHolder = () => {
                 height: 'auto',
                 marginTop: '3vw',
                 marginLeft: 'auto',
-                marginRight: 'auto'
+                marginRight: 'auto',
+                marginBottom: '1vw'
             }}
             alt='app bar'
             src={appBar}
