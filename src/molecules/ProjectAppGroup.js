@@ -4,7 +4,6 @@ import Text from "../atoms/Text";
 const projectAppNames = {
     aboutMe: 'About Me',
     resume: 'Resume',
-    pizze: 'Pizze',
     allCaps: 'All Caps',
     kobe: 'Kobe Page',
     pizzaSurvey: 'Pizza Survey',
@@ -19,7 +18,7 @@ const ProjectAppGroup = props => {
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
-            margin: '1.5vw 0vw'
+            margin: '1.5vw 25.7px'
         }}>
             <ProjectAppIcon projectAppIcon={props.projectAppName} />
             <Text 

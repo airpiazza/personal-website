@@ -1,6 +1,5 @@
 import aboutMe from '../assets/aboutMe.png';
 import resume from '../assets/resume.png';
-import pizze from '../assets/pizze.png';
 import allCaps from '../assets/allCaps.png';
 import kobe from '../assets/kobe.png';
 import pizzaSurvey from '../assets/pizzaSurvey.png';
@@ -14,7 +13,6 @@ import codepen from '../assets/codepen.png';
 const projectAppIcons = {
     aboutMe: aboutMe,
     resume: resume,
-    pizze: pizze,
     allCaps: allCaps,
     kobe: kobe,
     pizzaSurvey: pizzaSurvey,
@@ -30,7 +28,7 @@ const ProjectAppIcon = props => {
         <>
             <img 
                 style={{
-                    maxWidth: '11vw',
+                    maxWidth: '10vw',
                     height: 'auto',
                     borderRadius: '2vw',
                     borderStyle: 'solid',
