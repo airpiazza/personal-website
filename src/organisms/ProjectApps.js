@@ -1,5 +1,4 @@
 import ProjectAppGroup from "../molecules/ProjectAppGroup";
-import '../stylesheets/ProjectApps.css'
 
 const projectAppNames = [
     'aboutMe',

@@ -1,5 +1,4 @@
 import './App.css';
-import ProjectApps from './organisms/ProjectApps';
 import HomeScreenPage from './pages/HomeScreenPage';
 
 const App = () => {
