@@ -8,7 +8,7 @@ const AppBody = props => {
             flexDirection: 'row',
             flexWrap: 'wrap',
             justifyContent: 'center',
-            padding: '0vw 10vw'
+            padding: '0vw 15vw'
         }}>
             <Image imageName={props.imageName} alt={props.alt} />
             <AppSpiel 

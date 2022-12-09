@@ -9,7 +9,7 @@ const Image = props => {
         <img 
             style={{
                 display: 'block',
-                maxWidth: '30vw',
+                maxWidth: '420px',
                 height: 'auto',
             }}
             src={images[props.imageName]} 

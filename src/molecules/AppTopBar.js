@@ -5,7 +5,6 @@ const AppTopBar = props => {
         <div style={{
             display: 'block',
             height: '8vh',
-            width: '100vw',
             backgroundColor: props.backgroundColor,
         }}>
             <div style={{
