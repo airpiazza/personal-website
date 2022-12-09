@@ -1,5 +1,6 @@
 import ProjectAppIcon from "../atoms/ProjectAppIcon";
 import Text from "../atoms/Text";
+import '../stylesheets/ProjectAppGroup.css';
 
 const projectAppNames = {
     aboutMe: 'About Me',
@@ -14,12 +15,15 @@ const projectAppNames = {
 
 const ProjectAppGroup = props => {
     return (
-        <div style={{
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
-            margin: '1.5vw 25.7px'
-        }}>
+        <div 
+            className="project-app-group"
+            style={{
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                margin: '1.5vw 25.7px'
+            }}
+        >
             <ProjectAppIcon projectAppIcon={props.projectAppName} />
             <Text 
                 content={projectAppNames[props.projectAppName]}

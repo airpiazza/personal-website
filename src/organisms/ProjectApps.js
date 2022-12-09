@@ -11,10 +11,10 @@ const projectAppNames = [
     'quando'
 ];
 
-const projectApps = projectAppNames.map((projectAppName) => {
+const projectApps = projectAppNames.map((projectAppName, index) => {
 
     return (
-        <ProjectAppGroup projectAppName={projectAppName} />
+        <ProjectAppGroup key={index} projectAppName={projectAppName} />
     );
 })
 

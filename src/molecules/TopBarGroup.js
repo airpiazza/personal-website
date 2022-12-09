@@ -12,7 +12,7 @@ const TopBarGroup = (props) => {
             fontFamily='pedestria-mvb'
             fontWeight={700}
             fontSize='3vw'
-            marginRight='1vw'
+            marginRight='0.5vw'
             WebkitTextStroke={0}
             marginTop={0}
         />

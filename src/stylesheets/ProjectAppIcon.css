@@ -11,11 +11,33 @@
     animation-name: no-box-shadow;
     animation-duration: 600ms;
     animation-fill-mode: forwards;
-    font-weight: bold;
 }
 
 @keyframes no-box-shadow{
-    100%{
-      box-shadow: none;
-    }
+  100%{
+    box-shadow: 0vw 0vw 0px black;
   }
+}
+
+.app-bar-icon {
+  animation-name: fade-in;
+  animation-duration: 3500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: scale(0) rotate(35deg);
+  }
+
+  15% {
+    opacity: 0;
+    transform: scale(0) rotate(35deg);
+  }
+
+
+  80% {
+    transform: scale(1.2) rotate(-10deg);
+  }
+}

@@ -9,12 +9,11 @@ const LockScreenTopBar = () => {
         }}>
             <TopBarGroup 
                 content='Nicholas Piazza'
-                iconName='TiWiFi'
                 iconColor='#5D137C'
             />
             <TopBarGroup 
                 content='100%'
-                iconName='CgBatteryFull'
+                iconName=''
                 iconColor='#5D137C'
             />
         </div>
