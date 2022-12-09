@@ -1,5 +1,6 @@
 import Icon from '../atoms/Icon';
 import Text from '../atoms/Text'
+import '../resources/stylesheets/ArrowTextGroup.css';
 
 const ArrowTextGroup = () => {
     return (
@@ -9,7 +10,7 @@ const ArrowTextGroup = () => {
             textAlign: 'center',
             marginBottom: 50
         }}>
-            <Icon iconName='FaChevronUp' size='4.5vw' color='#0087A2' marginBottom={0}/>
+            <Icon className='icon' iconName='FaChevronUp' size='4.5vw' color='#0087A2' marginBottom='-2vw'/>
             <Text 
                 content={'Click here to unlock'}
                 color='#5D137C'

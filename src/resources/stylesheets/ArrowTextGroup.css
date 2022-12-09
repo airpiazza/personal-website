@@ -1,0 +1,19 @@
+.icon {
+    animation: bounce 2s linear infinite;
+    animation-timing-function: ease;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+        
+    }
+
+    50% {
+        transform: translateY(-2vw);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}

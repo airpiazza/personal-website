@@ -32,11 +32,14 @@ const getIconComponent = iconName => {
 
 const Icon = props => {
     return (
-        <div style={{
-            color: props.color,
-            fontSize: props.size,
-            marginBottom: props.marginBottom
-        }}>
+        <div 
+            className={props.className}
+            style={{
+                color: props.color,
+                fontSize: props.size,
+                marginBottom: props.marginBottom
+            }}
+        >
             { getIconComponent(props.iconName) }
         </div>
     );
