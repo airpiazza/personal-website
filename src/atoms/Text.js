@@ -8,7 +8,9 @@ const Text = props => {
         fontSize: props.fontSize,
         marginRight: props.marginRight,
         WebkitTextStroke: `${props.WebkitTextStroke}`,
-        marginTop: props.marginTop
+        marginTop: props.marginTop,
+        marginBottom: props.marginBottom,
+        textAlign: props.textAlign
     }}>
         <p>{props.content}</p>
     </div>
