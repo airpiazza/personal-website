@@ -1,10 +1,10 @@
 import './App.css';
-import HomeScreenPage from './pages/HomeScreenPage';
+import AppTopBar from './molecules/AppTopBar';
 
 const App = () => {
   return (
     <div className='App'>
-      <HomeScreenPage />
+      <AppTopBar backgroundColor='#0087A2' iconColor='#FFFFFF' />
     </div>
   );
 }

@@ -1,4 +1,4 @@
-import { FaChevronUp } from "react-icons/fa";
+import { FaChevronUp, FaChevronLeft } from "react-icons/fa";
 import { 
     TbBatteryCharging,
     TbBattery,
@@ -11,6 +11,8 @@ import {
 const getIconComponent = iconName => {
     if (iconName === 'FaChevronUp') {
         return <FaChevronUp />;
+    } else if (iconName === 'FaChevronLeft') {
+        return <FaChevronLeft />;
     } else if (iconName === 'TbBattery') {
         return <TbBattery />;
     } else if (iconName === 'TbBattery1') {
