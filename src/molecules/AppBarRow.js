@@ -1,5 +1,5 @@
 import ProjectAppIcon from "../atoms/ProjectAppIcon";
-import '../stylesheets/ProjectAppIcon.css';
+import '../resources/stylesheets/ProjectAppIcon.css';
 
 const AppBarRow = () => {
     return (

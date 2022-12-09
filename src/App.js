@@ -1,10 +1,18 @@
+import { useEffect } from 'react';
+import { useBattery } from 'react-use';
 import './App.css';
-import AppPage from './pages/AppPage';
+import LockScreenPage from './pages/LockScreenPage';
 
 const App = () => {
+  const batteryState = useBattery();
+
+  useEffect(() => {
+      console.log(batteryState);
+  }, [batteryState]);
+
   return (
     <div className='App'>
-      <AppPage />
+      <LockScreenPage batteryState={batteryState} />
     </div>
   );
 }

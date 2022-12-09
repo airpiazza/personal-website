@@ -1,63 +1,8 @@
-import { useEffect } from "react";
-import { useBattery } from "react-use";
 import Time from "../molecules/Time";
 import TopBarGroup from "../molecules/TopBarGroup";
+import getBatteryTopBarGroup from "../resources/functions/BatteryHelper";
 
-const batteryTopBarGroup = (batteryState) => {
-    if(batteryState.fetched) {
-        if(batteryState.charging) {
-            return <TopBarGroup 
-                content={`${batteryState.level * 100}%`}
-                iconName='TbBatteryCharging'
-                iconColor='#5D137C'
-            />
-        } 
-        else {
-            if(batteryState.level < .5) {
-                return <TopBarGroup 
-                    content={`${batteryState.level * 100}%`}
-                    iconName='TbBattery1'
-                    iconColor='#5D137C'
-                />
-            } else if(batteryState.level < .75) {
-                return <TopBarGroup 
-                    content={`${batteryState.level * 100}%`}
-                    iconName='TbBattery2'
-                    iconColor='#5D137C'
-                />
-            } else if(batteryState.level < 1) {
-                return <TopBarGroup 
-                    content={`${batteryState.level * 100}%`}
-                    iconName='TbBattery3'
-                    iconColor='#5D137C'
-                />
-            } else if(batteryState.level === 1) {
-                return <TopBarGroup 
-                    content={`${batteryState.level * 100}%`}
-                    iconName='TbBattery4'
-                    iconColor='#5D137C'
-                />
-            } else {
-                return <TopBarGroup 
-                    iconName='TbBattery'
-                    iconColor='#5D137C'
-                />
-            }
-        }
-    } else {
-        return <TopBarGroup 
-            iconName='TbBattery'
-            iconColor='#5D137C'
-        />
-    }
-}
-
-const HomeScreenTopBar = () => {
-    const batteryState = useBattery();
-
-    useEffect(() => {
-        console.log(batteryState);
-    }, [batteryState]);
+const HomeScreenTopBar = props => {
 
     return (
         <>
@@ -78,9 +23,9 @@ const HomeScreenTopBar = () => {
                 textAlign: 'center'
             }}>
                 {
-                    batteryState.isSupported
+                    props.batteryState.isSupported
                     &&
-                    batteryState.fetched
+                    props.batteryState.fetched
                     &&
                     <Time 
                         fontFamily='Pedestria-MVB'
@@ -97,8 +42,8 @@ const HomeScreenTopBar = () => {
                 right: 25
             }}>
                 {
-                batteryState.isSupported ?
-                    batteryTopBarGroup(batteryState) :
+                props.batteryState.isSupported ?
+                    getBatteryTopBarGroup(props.batteryState) :
                     <Time 
                         fontFamily='Pedestria-MVB'
                         WebkitTextStroke='0vw #5D137C'

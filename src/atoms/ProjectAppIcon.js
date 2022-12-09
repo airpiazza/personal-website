@@ -1,15 +1,15 @@
-import aboutMe from '../assets/aboutMe.png';
-import resume from '../assets/resume.png';
-import allCaps from '../assets/allCaps.png';
-import kobe from '../assets/kobe.png';
-import pizzaSurvey from '../assets/pizzaSurvey.png';
-import guitar from '../assets/guitar.png';
-import kotlin from '../assets/kotlin.png';
-import quando from '../assets/quando.png';
-import github from '../assets/github.png';
-import linkedIn from '../assets/linkedIn.png';
-import codepen from '../assets/codepen.png';
-import '../stylesheets/ProjectAppIcon.css';
+import aboutMe from '../resources/assets/aboutMe.png';
+import resume from '../resources/assets/resume.png';
+import allCaps from '../resources/assets/allCaps.png';
+import kobe from '../resources/assets/kobe.png';
+import pizzaSurvey from '../resources/assets/pizzaSurvey.png';
+import guitar from '../resources/assets/guitar.png';
+import kotlin from '../resources/assets/kotlin.png';
+import quando from '../resources/assets/quando.png';
+import github from '../resources/assets/github.png';
+import linkedIn from '../resources/assets/linkedIn.png';
+import codepen from '../resources/assets/codepen.png';
+import '../resources/stylesheets/ProjectAppIcon.css';
 
 const projectAppIcons = {
     aboutMe: aboutMe,

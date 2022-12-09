@@ -1,5 +1,5 @@
-import appBar from '../assets/appBar.png'
-import '../stylesheets/AppBarHolder.css';
+import appBar from '../resources/assets/appBar.png'
+import '../resources/stylesheets/AppBarHolder.css';
 
 const AppBarHolder = () => {
     return (

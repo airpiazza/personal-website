@@ -2,7 +2,7 @@ import Time from "../molecules/Time";
 import LockScreenTopBar from "../organisms/LockScreenTopBar";
 import ArrowTextGroup from "../molecules/ArrowTextGroup";
 
-const LockScreenPage = () => {
+const LockScreenPage = props => {
     return (
         <div style={{
             display: 'flex',
@@ -10,7 +10,7 @@ const LockScreenPage = () => {
             justifyContent: 'space-between',
             height: '100vh'
         }}>
-            <LockScreenTopBar />
+            <LockScreenTopBar batteryState={props.batteryState} />
             <Time 
                 fontFamily='Pedestria-MVB' 
                 WebkitTextStroke='1vw #5D137C' 

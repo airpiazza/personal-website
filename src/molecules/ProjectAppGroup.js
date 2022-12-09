@@ -1,6 +1,6 @@
 import ProjectAppIcon from "../atoms/ProjectAppIcon";
 import Text from "../atoms/Text";
-import '../stylesheets/ProjectAppGroup.css';
+import '../resources/stylesheets/ProjectAppGroup.css';
 
 const projectAppNames = {
     aboutMe: 'About Me',

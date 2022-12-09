@@ -1,6 +1,8 @@
+import getBatteryTopBarGroup from '../resources/functions/BatteryHelper';
+import Time from '../molecules/Time';
 import TopBarGroup from '../molecules/TopBarGroup'
 
-const LockScreenTopBar = () => {
+const LockScreenTopBar = props => {
     return (
         <div style={{
             display: 'flex',
@@ -11,11 +13,17 @@ const LockScreenTopBar = () => {
                 content='Nicholas Piazza'
                 iconColor='#5D137C'
             />
-            <TopBarGroup 
-                content='100%'
-                iconName=''
-                iconColor='#5D137C'
-            />
+            {
+                props.batteryState.isSupported ?
+                    getBatteryTopBarGroup(props.batteryState) :
+                    <Time 
+                        fontFamily='Pedestria-MVB'
+                        WebkitTextStroke='0vw #5D137C'
+                        fontSize='3vw'
+                        color='#5D137C'
+                        fontWeight={700}
+                    />
+                }
         </div>
     );
 }

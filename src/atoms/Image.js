@@ -1,4 +1,4 @@
-import memoji from "../assets/memoji.PNG"
+import memoji from "../resources/assets/memoji.PNG"
 
 const Image = props => {
     const images = {

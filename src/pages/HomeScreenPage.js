@@ -2,10 +2,10 @@ import AppBar from '../organisms/AppBar';
 import HomeScreenTopBar from '../organisms/HomeScreenTopBar';
 import ProjectApps from '../organisms/ProjectApps';
 
-const HomeScreenPage = () => {
+const HomeScreenPage = props => {
     return (
         <div>
-            <HomeScreenTopBar />
+            <HomeScreenTopBar batteryState={props.batteryState} />
             <div 
                 style={{
                     height: '100vh',

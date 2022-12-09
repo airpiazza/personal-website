@@ -1,6 +1,6 @@
 import AppTopBar from '../molecules/AppTopBar';
 import AppBody from "../organisms/AppBody";
-import text from '../page-content/AboutMeContent';
+import text from '../resources/content/AboutMeContent';
 
 const AppPage = () => {
     return (
