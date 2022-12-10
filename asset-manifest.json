@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/personal-website/static/css/main.317513c0.css",
+    "main.js": "/personal-website/static/js/main.a3032c20.js",
+    "static/js/787.5809834d.chunk.js": "/personal-website/static/js/787.5809834d.chunk.js",
+    "static/media/kobe.png": "/personal-website/static/media/kobe.5e838b0be45b54aca181.png",
+    "static/media/resume.png": "/personal-website/static/media/resume.1b1e04a0cc73a24d0abe.png",
+    "static/media/aboutMe.png": "/personal-website/static/media/aboutMe.3495dfe591ef020631c0.png",
+    "static/media/memoji.PNG": "/personal-website/static/media/memoji.c19d2b88aa8e463b232f.PNG",
+    "static/media/codepen.png": "/personal-website/static/media/codepen.343afa6a5238c5753331.png",
+    "static/media/github.png": "/personal-website/static/media/github.b999cc3289859840c0e1.png",
+    "static/media/pizzaSurvey.png": "/personal-website/static/media/pizzaSurvey.cc3e4e47d9f1d3f0fd37.png",
+    "static/media/guitar.png": "/personal-website/static/media/guitar.3ec5bf86195ffa8ad78c.png",
+    "static/media/linkedIn.png": "/personal-website/static/media/linkedIn.964e178a1f3494963527.png",
+    "static/media/quando.png": "/personal-website/static/media/quando.81b06d40f29defed0225.png",
+    "static/media/appBar.png": "/personal-website/static/media/appBar.e0a31f0aba95bcebc4cd.png",
+    "static/media/kotlin.png": "/personal-website/static/media/kotlin.911f5afd5c3872c898d0.png",
+    "static/media/allCaps.png": "/personal-website/static/media/allCaps.cbb46cb400bfd3d76b4c.png",
+    "index.html": "/personal-website/index.html",
+    "main.317513c0.css.map": "/personal-website/static/css/main.317513c0.css.map",
+    "main.a3032c20.js.map": "/personal-website/static/js/main.a3032c20.js.map",
+    "787.5809834d.chunk.js.map": "/personal-website/static/js/787.5809834d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.317513c0.css",
+    "static/js/main.a3032c20.js"
+  ]
+}
