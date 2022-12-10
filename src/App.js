@@ -6,11 +6,18 @@ import HomeScreenPage from './pages/HomeScreenPage';
 import AppPage from './pages/AppPage';
 import { AnimatePresence } from 'framer-motion';
 import AnimatedCursor from 'react-animated-cursor';
+import { useEffect } from 'react';
+import { useState } from 'react';
 
 const App = () => {
   const batteryState = useBattery();
   const location = useLocation();
   const windowSize = useWindowSize()
+  const [height, setHeight] = useState(window.innerHeight);
+
+  useEffect(() => {
+    setHeight(window.innerHeight);
+  }, [windowSize]);
 
   return (
     <div className='App'>
@@ -23,9 +30,9 @@ const App = () => {
       />
       <AnimatePresence>
         <Routes location={location} key={location.pathname}>
-            <Route path='/' element={<LockScreenPage height={windowSize.height} batteryState={batteryState} />} />
-            <Route path='/home' element={<HomeScreenPage height={windowSize.height} batteryState={batteryState} />} />
-            <Route path='/about-me' element={<AppPage  height={windowSize.height} />} />
+            <Route path='/' element={<LockScreenPage height={height} batteryState={batteryState} />} />
+            <Route path='/home' element={<HomeScreenPage height={height} batteryState={batteryState} />} />
+            <Route path='/about-me' element={<AppPage  height={height} />} />
         </Routes>
       </AnimatePresence>
     </div>
