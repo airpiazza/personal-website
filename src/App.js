@@ -32,7 +32,7 @@ const App = () => {
         <Routes location={location} key={location.pathname}>
             <Route path='/' element={<LockScreenPage height={height} batteryState={batteryState} />} />
             <Route path='/home' element={<HomeScreenPage height={height} batteryState={batteryState} />} />
-            <Route path='/about-me' element={<AppPage  height={height} />} />
+            <Route path='/about-me' element={<AppPage />} />
         </Routes>
       </AnimatePresence>
     </div>

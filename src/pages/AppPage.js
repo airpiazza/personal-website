@@ -5,7 +5,7 @@ import text from '../resources/content/AboutMeContent';
 const AppPage = props => {
     return (
         <div style={{
-            height: props.height
+            height: '100vh'
         }}>
             <AppTopBar backgroundColor='#0087A2' iconColor='#FFFFFF' />
             <AppBody imageName='memoji' alt='memoji of Nick' text={text} />
