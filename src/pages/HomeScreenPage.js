@@ -8,7 +8,7 @@ const HomeScreenPage = props => {
             <HomeScreenTopBar batteryState={props.batteryState} />
             <div 
                 style={{
-                    height: '100vh',
+                    height: props.height,
                     display: 'flex',
                     flexDirection:'column',
                     justifyContent: 'space-between',

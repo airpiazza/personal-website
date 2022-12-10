@@ -9,8 +9,8 @@ const Image = props => {
         <img 
             style={{
                 display: 'block',
-                maxWidth: '420px',
-                height: 'auto',
+                maxWidth: 'calc((15vw + 25.7px) * 3)',
+                height: 'auto'
             }}
             src={images[props.imageName]} 
             alt={props.alt} 

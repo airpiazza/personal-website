@@ -11,7 +11,7 @@ const LockScreenPage = props => {
                 display: 'flex',
                 flexDirection: 'column',
                 justifyContent: 'space-between',
-                height: '100vh',
+                height: props.height,
                 width: '100vw',
                 position: 'absolute'
             }}
