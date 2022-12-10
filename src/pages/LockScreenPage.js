@@ -1,15 +1,22 @@
 import Time from "../molecules/Time";
 import LockScreenTopBar from "../organisms/LockScreenTopBar";
 import ArrowTextGroup from "../molecules/ArrowTextGroup";
+import { Link } from "react-router-dom";
+import { motion } from 'framer-motion';
 
 const LockScreenPage = props => {
     return (
-        <div style={{
-            display: 'flex',
-            flexDirection: 'column',
-            justifyContent: 'space-between',
-            height: '100vh'
-        }}>
+        <motion.div 
+            style={{
+                display: 'flex',
+                flexDirection: 'column',
+                justifyContent: 'space-between',
+                height: '100vh',
+                width: '100vw',
+                position: 'absolute'
+            }}
+            exit={{ y: -window.innerHeight, transition: {duration: 1} }}
+        >
             <LockScreenTopBar batteryState={props.batteryState} />
             <Time 
                 fontFamily='Pedestria-MVB' 
@@ -18,8 +25,10 @@ const LockScreenPage = props => {
                 color='#0087A2'
                 fontWeight={700}
             />
-            <ArrowTextGroup />
-        </div>
+            <Link to='/home'>
+                <ArrowTextGroup />
+            </Link>
+        </motion.div>
     );
 }
 
