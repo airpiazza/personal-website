@@ -1,3 +1,3 @@
 # Nicholas Piazza's Personal Website
 
-This is [my personal website](https://airpiazza.github.io/personal-website/) developed using React!
+This is [my personal website](https://airpiazza.github.io/personal-website/) developed using React! I am making this because my personal projects and social pages were scattered across my resume, LinkedIn, CodePen, the Google Play Store, and GitHub. I wanted to create a centralized portfolio where people can access my projects and social links all in one place. I used Create React App to make this React project. For the component architecture, I used the Atomic Design Pattern which is a way to hierarchically compose reusable components, essentially creating my own personal bootstrap. I deployed my project onto GitHub pages.
