@@ -4,13 +4,7 @@ import '../resources/stylesheets/ProjectAppGroup.css';
 
 const projectAppNames = {
     aboutMe: 'About Me',
-    resume: 'Resume',
-    allCaps: 'All Caps',
-    kobe: 'Kobe Page',
-    pizzaSurvey: 'Pizza Survey',
-    guitar: 'Guitar Page',
-    kotlin: 'Kotlin Docs',
-    quando: 'Quando'
+    resume: 'Resume'
 }
 
 const ProjectAppGroup = props => {

@@ -2,13 +2,7 @@ import ProjectAppGroup from "../molecules/ProjectAppGroup";
 
 const projectAppNames = [
     'aboutMe',
-    'resume',
-    'allCaps',
-    'kobe',
-    'pizzaSurvey',
-    'guitar',
-    'kotlin',
-    'quando'
+    'resume'
 ];
 
 const projectApps = projectAppNames.map((projectAppName, index) => {
